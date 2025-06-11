@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Hello world</h1>
+        <h1>Hi, I'm Rebecca Li Beagley!</h1>
       </div>
     </>
   )
