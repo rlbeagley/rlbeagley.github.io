@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
-  font-family: 'Single Day', sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,7 +16,7 @@
 }
 
 a {
-  font-size:1.8em;
+  font-size:1.2em;
   font-weight: bold;
   padding: 0px 50px;
   color: #1b030e;
