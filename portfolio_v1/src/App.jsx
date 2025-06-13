@@ -1,15 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import logo from '/code.svg'
 import './App.css'
+import NavBar from './components/NavBar.jsx'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Hi, I'm Rebecca Li Beagley!</h1>
-      </div>
+    <div className ='main-body'>
+      <NavBar />
+      <h1>Hi, I'm Rebecca Li Beagley!</h1>
+    </div>
     </>
   )
 }
