@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 :root {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  font-style: normal;
   line-height: 1.5;
-  font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -17,7 +17,7 @@
 
 a {
   font-size:1.2em;
-  font-weight: bold;
+  font-weight: 800;
   padding: 0px 50px;
   color: #1b030e;
   text-decoration: inherit;
@@ -41,6 +41,7 @@ body, #root {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-weight: 500;
 }
 
 button {

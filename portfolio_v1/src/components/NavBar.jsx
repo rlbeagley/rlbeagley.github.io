@@ -2,11 +2,12 @@ import './NavBar.css'
 function NavBar() {
     return (
         <nav className="navbar">
-            <a href="#home">Home</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#links">Links</a>
+            <a href="#home">home</a>
+            <a href="#skills">skills</a>
+            <a href="#experience">experience</a>
+            <a href="#projects">projects</a>
+            <a href="#links">contact</a>
+            <a href="#resume">resume</a>
         </nav>
     );
 }
