@@ -10,8 +10,8 @@ function App() {
     <>
     <div className ='main-body'>
       <NavBar />
-      <Section id='home' title='About me' > 
-
+      <Section id='home' title='' > 
+        <Home />
       </Section>
       <Section id='skills' title='Skills'>
 

@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 :root {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   line-height: 1.5;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #e0a1bb;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #eec8d8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,16 +17,19 @@
 }
 
 a {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
   font-size:1.2em;
-  font-weight: 800;
+  font-weight: 500;
   padding: 0px 50px;
   color: #1b030e;
   text-decoration: inherit;
 }
 a:hover {
   color: rgba(255, 255, 255, 0.87);
-  background-color: #e0a1bb;
+  background-color: #eec8d8;
   border-radius: 20px 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   transition: background-color 0.3s ease;
   transform: scale(1.2);
 }
@@ -39,9 +43,25 @@ body, #root {
 }
 
 h1 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
   font-size: 3.2em;
   line-height: 1.1;
   font-weight: 500;
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-block-start: 0px;
+  margin-block-end:0px;
+}
+
+h3 {
+  margin-block-start: 1px;
+  margin-block-end:1px;
 }
 
 button {

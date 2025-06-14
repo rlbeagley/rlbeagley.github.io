@@ -1,0 +1,27 @@
+#photoOfMe {
+    width: 25vw;
+    height: auto;
+}
+
+#sectionContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#textContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    white-space: normal;
+    width: 30vw;
+    padding: 20px;
+
+}
+#name {
+    transition: transform 0.3s ease;
+}
+#name:hover {
+    transform: scale(1.1);
+
+}
