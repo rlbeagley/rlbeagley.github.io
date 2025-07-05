@@ -1,7 +1,16 @@
 .navbar {
     position: fixed;
-    left: 0;
-    width: 100%;
+    display: flex;
+    padding-right: 100px;
+    justify-content: center;
+    background-image: url('../assets/navbarBackground.png');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    width: 100vw;
+    text-align: center;
     top:0;
 }
 
+.navbar button {
+    margin-top: 10px;
+}

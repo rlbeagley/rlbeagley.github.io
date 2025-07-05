@@ -1,14 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Sail&display=swap');
 
-h1 {
+h1{
   font-family: "Sail", system-ui;
   font-weight: 400;
-  font-size: 200;
+  font-size: 70px;
+  color: #B470A8; 
+
+  text-shadow: 4px 4px 0px rgba(255, 255, 255, 0.25);
+
 }
 
-h3, h2 {
+
+h2 {
+
+  font-family: "Sail", system-ui;
+  font-weight: 400;
+  font-size: 50px;
+  color: #B470A8; 
+}
+
+h3 {
   font-family: "PT Mono", monospace;
   font-weight: 400;
   font-style: normal;
+
 }
 
+body {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  height: 3.5em;
+  width: 9em;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
