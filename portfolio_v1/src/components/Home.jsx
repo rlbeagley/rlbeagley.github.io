@@ -6,9 +6,9 @@ function Home() {
         <div id='sectionContainer'>
             <div id='textContainer'>
                 <h3>Hi, i'm 
-                    <h2 id="name">
+                    <h1 id="name">
                         Rebecca Li Beagley,
-                    </h2>
+                    </h1>
                 </h3>
                 <h3>a 3rd year Computer Science student 
                     @uOttawa interested in 
