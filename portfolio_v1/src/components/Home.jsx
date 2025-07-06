@@ -1,8 +1,9 @@
 import meImage from '../assets/me.jpg';
 import scrapbookBackground from '../assets/homeBackground.png';
+import TypingHome from '../components/TypingHome.jsx';
 import './Home.css'
 
-function Home() {
+const Home = () => {
     return (
         <div id='sectionContainer'>
             <div id='contentWrapper'>
@@ -14,6 +15,7 @@ function Home() {
                         </h2>
                     </h3>
                     <h3>and I like to</h3>
+                    <TypingHome />
                  </div>
             </div>
             

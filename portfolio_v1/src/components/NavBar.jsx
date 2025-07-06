@@ -1,6 +1,6 @@
 import './NavBar.css';
 import { useState } from 'react';
-function NavBar() {
+const NavBar = () => {
     const tabs = ['Home','Skills', 'Experience', 'Projects', 'Links', 'Resume'];
     const [currentTab, setCurrentTab] = useState("Home");
 
