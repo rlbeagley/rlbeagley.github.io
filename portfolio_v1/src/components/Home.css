@@ -1,5 +1,5 @@
 #photoOfMe {
-    width: 25vw;
+    width: 25em;
     height: auto;
 }
 
@@ -7,21 +7,33 @@
     display:flex;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
+    margin-top: 3em;
+    
 }
 
 #textContainer {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-direction: column;
     white-space: normal;
-    width: 30vw;
-    padding: 20px;
+    padding: 3em;
+    text-align: center;
+    width: 30em;
+}
 
+#contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8em;
 }
-#name {
-    transition: transform 0.3s ease;
-}
-#name:hover {
-    transform: scale(1.1);
 
+#scrapbookBackground {
+    position: absolute;
+    z-index: -1;
+    width: 60%;
+    height: auto;
 }
+
