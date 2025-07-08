@@ -9,11 +9,10 @@ const Home = () => {
             <div id='contentWrapper'>
                 <img id='scrapbookBackground' src={scrapbookBackground} />
                 <div id='textContainer'>
-                    <h3>Hi, i'm 
-                        <h2 id="name">
+                    <h3>Hi, i'm </h3>
+                    <h2 id="name">
                             Rebecca Li Beagley,
-                        </h2>
-                    </h3>
+                    </h2>
                     <h3>and I like to</h3>
                     <TypingHome />
                  </div>

@@ -9,6 +9,7 @@
     width: 100vw;
     text-align: center;
     top:0;
+    z-index: 10;
 }
 
 .navbar button {
