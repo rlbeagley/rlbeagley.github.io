@@ -7,7 +7,6 @@ const Home = () => {
     return (
         <div id='sectionContainer'>
             <div id='contentWrapper'>
-                <img id='scrapbookBackground' src={scrapbookBackground} />
                 <div id='textContainer'>
                     <h3>Hi, i'm </h3>
                     <h2 id="name">

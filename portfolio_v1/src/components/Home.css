@@ -1,16 +1,16 @@
 #photoOfMe {
-    width: 20em;
+    width: 22em;
     height: auto;
-    margin-left: 1.5em;
+
 }
 
 #sectionContainer {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    margin-top: 3em;
-    padding: 5em;
+    justify-content: center;  
+    align-items: center;
+    padding: 2.5em;
+    gap: 2rem;
     pointer-events: none;
     
 }
@@ -21,7 +21,6 @@
     align-items: center;
     flex-direction: column;
     white-space: normal;
-    padding: 3em;
     text-align: center;
     width: 100%;
     max-width: 35em;
@@ -35,15 +34,21 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 35em;
-    margin-right: 1.5em;
+    max-width: 50em;
+    background-image: url('../assets/homeBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px; 
+    padding: 5em 10em;
+
 }
 
 
 #scrapbookBackground {
     position: absolute;
     z-index: -1;
-    width: 40rem;
+    width: 48rem;
     height: auto;
 }
 
