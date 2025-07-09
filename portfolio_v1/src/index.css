@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Sail&display=swap');
 
+@font-face {
+  font-family: 'Nok';
+  src: url('/fonts/nok.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 h1{
-  font-family: "Sail", system-ui;
+  font-family: 'Nok', sans-serif;
   font-weight: 400;
-  font-size: 70px;
+  font-size: 8em;
   color: #B470A8; 
   text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.5);
   margin: 0.2em;
@@ -13,9 +21,9 @@ h1{
 
 h2 {
 
-  font-family: "Sail", system-ui;
+  font-family: 'Nok', sans-serif;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 5em;
   color: #B470A8; 
   text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.5);
   margin:0.2em;

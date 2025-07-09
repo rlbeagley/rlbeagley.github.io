@@ -1,12 +1,12 @@
 import './NavBar.css';
 import { useState } from 'react';
 const NavBar = () => {
-    const tabs = ['Home','Skills', 'Experience', 'Projects', 'Links', 'Resume'];
+    const tabs = ['Home','About Me','Skills', 'Experience', 'Projects', 'Links', 'Resume'];
     const [currentTab, setCurrentTab] = useState("Home");
 
     const handleClick = (tab) => {
         setCurrentTab(tab);
-        const section = document.getElementById(tab.toLowerCase());
+        const section = document.getElementById(tab.toLowerCase().replace(" ", ""));
         section.scrollIntoView({behavior: 'smooth'});
     };
 

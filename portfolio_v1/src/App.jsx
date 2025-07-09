@@ -13,6 +13,9 @@ function App() {
       <Section id='home' title='' > 
         <Home />
       </Section>
+      <Section id='aboutme' title='About Me'>
+      
+      </Section>
       <Section id='skills' title='Skills'>
 
       </Section>
