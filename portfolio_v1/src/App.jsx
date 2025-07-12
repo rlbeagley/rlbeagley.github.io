@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from './components/NavBar.jsx'
 import Section from './components/Section.jsx'
 import Home from './components/Home.jsx'
+import AboutMe from './components/AboutMe.jsx'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
         <Home />
       </Section>
       <Section id='aboutme' title='About Me'>
-      
+        <AboutMe />
       </Section>
       <Section id='skills' title='Skills'>
 
@@ -24,7 +25,7 @@ function App() {
       </Section>
       <Section id='projects' title='Projects'
       ></Section>
-      <Section id='contact' title='Contact Information'>
+      <Section id='links' title='Contact Information'>
 
       </Section>
       <Section id='resume' title='My Resume'>

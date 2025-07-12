@@ -6,3 +6,12 @@
     height: 100dvh;
     width: 100dvw;
 }
+
+.sectionHeader {
+    text-shadow: 5px 5px 1px rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    background-image: url('../assets/headerBackground.png');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+}

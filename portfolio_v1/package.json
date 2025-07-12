@@ -12,6 +12,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.10.27",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-type-animation": "^3.2.0"

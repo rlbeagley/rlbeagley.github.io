@@ -1,0 +1,29 @@
+
+.spline-container  {
+    width: 50dvw;
+    height: 30dvw;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    white-space: normal;
+    text-align: center;
+    width: 60dvw;
+    height: auto;
+    max-width: 35em;
+    box-sizing: border-box;
+    pointer-events: none;
+    background-color: #F0DFDF;
+    padding: 2em;
+    border: 2em solid #ADC9AA;
+
+}

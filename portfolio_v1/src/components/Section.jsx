@@ -4,7 +4,7 @@ function Section(props) {
     return (
         <section id={props.id}>
             <div className='sectionContent' >
-                <h1>{props.title}</h1>
+                <h1 className ='sectionHeader'>{props.title}</h1>
                 <div>{props.children}</div>
             </div>
         </section>
