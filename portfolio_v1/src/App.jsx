@@ -4,6 +4,7 @@ import NavBar from './components/NavBar.jsx'
 import Section from './components/Section.jsx'
 import Home from './components/Home.jsx'
 import AboutMe from './components/AboutMe.jsx'
+import Skills from './components/Skills.jsx'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
         <AboutMe />
       </Section>
       <Section id='skills' title='Skills'>
-
+        <Skills />
       </Section>
       <Section id='experience' title='Experience'>
 

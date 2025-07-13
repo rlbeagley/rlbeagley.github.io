@@ -1,7 +1,7 @@
 
 .spline-container  {
     width: 50dvw;
-    height: 30dvw;
+    height: 35dvw;
 }
 
 .container {
@@ -23,7 +23,7 @@
     box-sizing: border-box;
     pointer-events: none;
     background-color: #F0DFDF;
-    padding: 2em;
-    border: 2em solid #ADC9AA;
+    padding: 1em;
+    border: 1.5em solid #ADC9AA;
 
 }

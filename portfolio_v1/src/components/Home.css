@@ -9,7 +9,6 @@
     flex-direction: row;
     justify-content: center;  
     align-items: center;
-    padding: 2.5em;
     gap: 2rem;
     pointer-events: none;
     
