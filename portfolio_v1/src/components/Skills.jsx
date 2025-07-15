@@ -4,7 +4,7 @@ import './Skills.css'
 
 const Skills = () => {
     const languages = ['Python', 'Java', 'JavaScript', 'HTML', 'CSS', 'PowerShell', 'Kotlin'];
-    const tools = ['SQL', 'NoSQL', 'Git', 'React', 'Azure', "VSCode"];
+    const tools = ['SQL', 'NoSQL', 'Git', 'React', 'Azure', "VSCode", "Android Studio"];
 
     const ref = useRef(null);
     const isInView = useInView(ref, {once: true});

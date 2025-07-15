@@ -16,8 +16,6 @@ const Home = () => {
                     <TypingHome />
                  </div>
             </div>
-            
-            
             <div id= 'photoContainer'>
                 <img id='photoOfMe' src={meImage} 
                     alt="Photo of Rebecca Beagley" />
