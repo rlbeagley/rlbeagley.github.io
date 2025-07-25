@@ -5,6 +5,7 @@ import Section from './components/Section.jsx'
 import Home from './components/Home.jsx'
 import AboutMe from './components/AboutMe.jsx'
 import Skills from './components/Skills.jsx'
+import MyJobs from './components/MyJobs.jsx'
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
         <Skills />
       </Section>
       <Section id='experience' title='Experience'>
-
+        <MyJobs />
       </Section>
       <Section id='projects' title='Projects'
       ></Section>

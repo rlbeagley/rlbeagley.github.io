@@ -1,6 +1,7 @@
 #photoOfMe {
     width: 22em;
     height: auto;
+       border-radius: 10px;
 }
 
 #sectionContainer {

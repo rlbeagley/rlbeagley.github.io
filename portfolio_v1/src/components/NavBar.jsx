@@ -11,11 +11,11 @@ const NavBar = () => {
 
         // callback function that will change the state everytime a section is in view
         const observer = new IntersectionObserver(
+            //  sections is a list of all sections that the observer has noticed change in
             (sections) => {
                 sections.forEach((section) => {
                     if (section.isIntersecting) {
                         setCurrentTab(section.target.id.toLowerCase().replace(" ", ""));
-                        console.log('Currently in view: ', section.target.id);
                     }
                 });
             }, { threshold: 0.5}
