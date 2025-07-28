@@ -1,8 +1,62 @@
 .jobContainer {
     display: flex;
+    width: 80%;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9E1E1;
+    padding: 2em 3em;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    border: 1.2em solid transparent;
+    border-radius: 20x;
+    border-image: url('../assets/headerBackground.png') 30 round;
+}
+
+.jobContainer h1 {
+    font-size: 5em;
+    margin: 0;
+}
+
+.jobContainer h2 {
+    font-size: 1.2em;
+    font-family: "PT Mono", monospace;
+    font-weight: 500;
+    color: black;
+    margin: 0.2em;
+}
+
+.jobText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 2em;
+    text-align: left;
+    width: 60dvw;
+}
+.subTitles {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .jobPic {
-    
+    width: 25dvw;
+    height:auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.descList {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.descList li {
+    margin: 0.5em;
 }
